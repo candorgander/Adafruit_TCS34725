@@ -460,3 +460,8 @@ bool Adafruit_TCS34725::isInit()
 {
   return _tcs34725Initialised;
 }
+
+void Adafruit_TCS34725::end()
+{
+  i2c_dev->end();
+}
