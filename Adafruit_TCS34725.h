@@ -200,6 +200,7 @@ public:
 
   boolean begin(uint8_t addr = TCS34725_ADDRESS, TwoWire *theWire = &Wire);
   boolean init();
+  bool isInit();
 
   void setIntegrationTime(uint8_t it);
   void setGain(tcs34725Gain_t gain);
