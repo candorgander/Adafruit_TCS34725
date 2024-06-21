@@ -458,5 +458,5 @@ void Adafruit_TCS34725::setIntLimits(uint16_t low, uint16_t high) {
 
 bool Adafruit_TCS34725::isInit()
 {
-  retrun _tcs34725Initialised;
+  return _tcs34725Initialised;
 }
